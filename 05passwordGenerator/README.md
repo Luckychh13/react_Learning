@@ -1,16 +1,103 @@
-# React + Vite
+🔐 Password Generator (React + TailwindCSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and customizable Password Generator built using React Hooks and styled with TailwindCSS.
 
-Currently, two official plugins are available:
+This app allows users to generate secure passwords with adjustable length and optional inclusion of numbers and special characters.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
 
-## React Compiler
+🔢 Adjustable password length (6–50)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔘 Option to include numbers
 
-## Expanding the ESLint configuration
+🔣 Option to include special characters
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📋 One-click copy to clipboard
+
+⚡ Auto-generates password when settings change
+
+🎨 Styled using TailwindCSS
+
+🛠️ Built With
+
+React
+
+useState
+
+useEffect
+
+useCallback
+
+useRef
+
+TailwindCSS
+
+Vite
+
+📂 Project Structure
+05passwordGenerator/
+│
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+└── README.md
+🧠 How It Works
+Password Generation Logic
+
+Base characters:
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+
+If numbers are enabled:
+
+0123456789
+
+If special characters are enabled:
+
+!@#$%^&*()_+{}~
+
+A random character is selected based on chosen options and desired length.
+
+📦 Installation & Setup
+
+1️⃣ Clone the repository:
+
+git clone https://github.com/your-username/reactlearning.git
+
+2️⃣ Navigate into the project folder:
+
+cd reactlearning/05passwordGenerator
+
+3️⃣ Install dependencies:
+
+npm install
+
+4️⃣ Run development server:
+
+npm run dev
+📋 Available Scripts
+Command	Description
+npm run dev	Start development server
+npm run build	Build for production
+npm run preview	Preview production build
+🎯 Future Improvements
+
+Add password strength indicator
+
+Add dark/light theme toggle
+
+Add toast notification after copying
+
+Improve random generation logic
+
+Add animations
+
+📸 Preview
+
+Generates secure passwords instantly with customizable options and clean UI.
+
+👨‍💻 Author
+
+Developed as part of React learning practice.
