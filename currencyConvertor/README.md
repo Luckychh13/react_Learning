@@ -71,6 +71,7 @@ A clean and modern currency converter with:
 - Smooth transitions
 - Real-time conversion
 - Professional UI
+![currencyImg jpg](https://github.com/user-attachments/assets/db4b4983-dec4-43ee-8054-226a4007274d)
 
 ---
 
